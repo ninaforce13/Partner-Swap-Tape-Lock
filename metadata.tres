@@ -7,8 +7,8 @@
 script = ExtResource( 1 )
 id = "partner_swap_tape_lock"
 name = "Partner Swap Tape Lock"
-version_code = 0
-version_string = "1.0"
+version_code = 1
+version_string = "1.0.1"
 author = "NCrafters"
 save_file_format_tag = ""
 save_file_format_tag_version = 0

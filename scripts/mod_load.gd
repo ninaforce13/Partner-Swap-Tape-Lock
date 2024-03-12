@@ -1,6 +1,6 @@
 extends ContentInfo
+var swap_partner = preload("res://mods/PartnerSwapRetainTape/scripts/SwapPartnerAction_patch.gd")
 
-func init_content():
-	var SwapPartnerExt:Resource = preload("res://mods/PartnerSwapRetainTape/scripts/SwapPartnerAction_ext.gd")
-	SwapPartnerExt.take_over_path("res://nodes/partners/SwapPartnerAction.gd")
-	
+func _init():
+	swap_partner.patch()
+
